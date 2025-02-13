@@ -110,6 +110,8 @@ class CryptoTicker {
             'INR Bid': 'inrBid',
             'INR Ask': 'inrAsk',
             'Volume': 'inrVolume',
+            'USDT Bid': 'usdtBid',
+            'USDT Ask': 'usdtAsk',
             'Buy Range': 'buyRange',
             'Sell Range': 'sellRange'
         };
@@ -153,6 +155,8 @@ class CryptoTicker {
                 <td>${item.inrBid.toFixed(4)}</td>
                 <td>${item.inrAsk.toFixed(4)}</td>
                 <td>${item.inrVolume.toFixed(4)}</td>
+                <td>${item.usdtBid.toFixed(4)}</td>
+                <td>${item.usdtAsk.toFixed(4)}</td>
                 <td>${item.buyRange}</td>
                 <td>${item.sellRange}</td>
             </tr>
