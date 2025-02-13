@@ -1,0 +1,31 @@
+.sortable {
+    cursor: pointer;
+    user-select: none;
+}
+
+.sortable i {
+    margin-left: 5px;
+    font-size: 0.8em;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0,0,0,.075);
+}
+
+.bi-arrow-down-up {
+    opacity: 0.5;
+}
+
+.sorted-asc .bi-arrow-down-up::before {
+    content: "\f12c";
+    opacity: 1;
+}
+
+.sorted-desc .bi-arrow-down-up::before {
+    content: "\f12f";
+    opacity: 1;
+} 
