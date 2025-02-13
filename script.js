@@ -23,7 +23,8 @@ class CryptoTicker {
 
     async fetchData() {
         try {
-            const response = await fetch('/api/coindcx');
+            // Fetch directly from CoinDCX API
+            const response = await fetch('https://api.coindcx.com/exchange/ticker');
             const data = await response.json();
             this.processData(data);
             this.updateTable();
